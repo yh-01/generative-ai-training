@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">生成AI研修：改善前後サンプル</title>
+  <desc id="desc">PPTX生成スクリプトで作成される比較スライドのSVGプレビュー。</desc>
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <text x="62" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="36" font-weight="700" fill="#1f2937">生成AI研修：改善前後サンプル</text>
+  <rect x="62" y="104" width="557" height="5" rx="2.5" fill="#00afb2"/>
+  <rect x="994" y="40" width="216" height="40" rx="14" fill="#eafbfb" stroke="#c8efef"/>
+  <text x="1054" y="66" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#00afb2">PPTX DESIGN</text>
+
+  <text x="72" y="171" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#64748b">Before：情報量が多く視線が迷う</text>
+  <rect x="62" y="187" width="562" height="466" rx="22" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="96" y="247" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="23" font-weight="700" fill="#1f2937">AI活用で業務を効率化するポイント</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" font-size="23" fill="#1f2937">
+    <text x="96" y="309">・作業の目的を明確にする</text>
+    <text x="96" y="353">・入力情報を整理する</text>
+    <text x="96" y="397">・AIの回答を確認する</text>
+    <text x="96" y="441">・社内ルールに合わせて活用する</text>
+    <text x="96" y="485">・小さく試して改善する</text>
+  </g>
+  <text x="96" y="596" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#64748b">課題：箇条書きが並び、重要度の差が見えにくい</text>
+
+  <text x="686" y="171" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#00afb2">After：要点をカード化して理解しやすく</text>
+  <rect x="658" y="187" width="562" height="466" rx="22" fill="#eafbfb" stroke="#c8efef"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <g transform="translate(691 226)">
+      <rect width="235" height="146" rx="18" fill="#fff" stroke="#c8efef"/>
+      <circle cx="36" cy="36" r="18" fill="#00afb2"/><text x="31" y="42" font-size="16" font-weight="700" fill="#fff">1</text>
+      <text x="66" y="42" font-size="19" font-weight="700" fill="#00afb2">目的を決める</text>
+      <text x="24" y="89" font-size="16" fill="#1f2937">何を短縮したいかを</text><text x="24" y="115" font-size="16" fill="#1f2937">先に決めます。</text>
+    </g>
+    <g transform="translate(950 226)">
+      <rect width="235" height="146" rx="18" fill="#fff" stroke="#c8efef"/>
+      <circle cx="36" cy="36" r="18" fill="#00afb2"/><text x="31" y="42" font-size="16" font-weight="700" fill="#fff">2</text>
+      <text x="66" y="42" font-size="19" font-weight="700" fill="#00afb2">情報を渡す</text>
+      <text x="24" y="89" font-size="16" fill="#1f2937">背景・条件・期待する</text><text x="24" y="115" font-size="16" fill="#1f2937">形式を伝えます。</text>
+    </g>
+    <g transform="translate(691 408)">
+      <rect width="235" height="146" rx="18" fill="#fff" stroke="#c8efef"/>
+      <circle cx="36" cy="36" r="18" fill="#00afb2"/><text x="31" y="42" font-size="16" font-weight="700" fill="#fff">3</text>
+      <text x="66" y="42" font-size="19" font-weight="700" fill="#00afb2">回答を確認</text>
+      <text x="24" y="89" font-size="16" fill="#1f2937">事実・表現・社内ルールを</text><text x="24" y="115" font-size="16" fill="#1f2937">見直します。</text>
+    </g>
+    <g transform="translate(950 408)">
+      <rect width="235" height="146" rx="18" fill="#fff" stroke="#c8efef"/>
+      <circle cx="36" cy="36" r="18" fill="#00afb2"/><text x="31" y="42" font-size="16" font-weight="700" fill="#fff">4</text>
+      <text x="66" y="42" font-size="19" font-weight="700" fill="#00afb2">小さく改善</text>
+      <text x="24" y="89" font-size="16" fill="#1f2937">試行結果を次の指示に</text><text x="24" y="115" font-size="16" fill="#1f2937">反映します。</text>
+    </g>
+  </g>
+  <text x="696" y="617" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#00afb2">効果：短い見出しと配置で、行動手順がすぐ分かる</text>
+</svg>
