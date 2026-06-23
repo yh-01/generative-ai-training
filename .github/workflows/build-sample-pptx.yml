@@ -1,0 +1,46 @@
+name: Build sample PPTX
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-sample-pptx:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            python -m pip install -r requirements.txt
+          fi
+
+      - name: Generate sample PPTX and SVG preview
+        run: python pptx-generator/scripts/build_sample_comparison.py
+
+      - name: Verify generated files
+        run: |
+          test -f pptx-generator/output/sample_comparison.pptx
+          test -f pptx-generator/preview/sample_comparison.svg
+
+      - name: Upload PPTX output artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sample-comparison-pptx
+          path: pptx-generator/output/sample_comparison.pptx
+          if-no-files-found: error
+
+      - name: Upload SVG preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sample-comparison-preview
+          path: pptx-generator/preview/sample_comparison.svg
+          if-no-files-found: error
