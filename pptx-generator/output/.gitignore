@@ -1,0 +1,3 @@
+# Generated binary PPTX files are intentionally excluded from PRs.
+*.pptx
+!.gitkeep
